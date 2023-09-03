@@ -20,20 +20,17 @@ namespace ProductMicroservice.Services
 
         public Product AddProduct(Product product)
         {
-            // Add your logic to add a new product to the static data
             return product;
         }
 
         public Product UpdateProduct(Product product)
         {
-            // Add your logic to update a product in the static data
             return product;
         }
 
         public bool DeleteProduct(int Id)
         {
-            // Add your logic to delete a product from the static data
-            return false; // Return appropriate result
+            return false; 
         }
     }
 }
